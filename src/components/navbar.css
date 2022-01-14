@@ -1,0 +1,21 @@
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   background-color: transparent;
+   background-color: var(--primary-color);
+    color: var(--secondary-color);
+    backdrop-filter:  10px; ;
+    
+}
+.header{
+    display: flex;
+}
+div ul{
+    display: flex;
+    gap: 0.7em;
+    list-style: none;
+    font-size: larger;
+    font-weight: bolder;
+}
