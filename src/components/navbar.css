@@ -1,11 +1,18 @@
-
+@media only screen and (max-width: 600px) {
+    nav{
+        background-color:red ;
+    }
+}
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: transparent;
+    background-color: #ffffffeb;
+    z-index: 100;
+    width: -webkit-fill-available;
     padding: 1em 60px ;
-    
+    position: fixed;
+    backdrop-filter: blur(4px);
 }
 .title{
     font-family: 'Mochiy Pop P One', sans-serif;
@@ -25,4 +32,18 @@ div ul{
 ul li a{
     text-decoration: none;
     color: var(--secondary-color);
+}
+a,li:hover{
+    transform: scale(0.95,0.95);
+    transition-duration: 400ms;
+}
+.burger{
+    width: 25px;
+    display: none;
+    border: 2px solid #dbd8d8;
+    padding: 0px 5px;
+}
+.burger hr {
+    border-color: black;
+    
 }

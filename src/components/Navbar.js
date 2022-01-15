@@ -25,6 +25,11 @@ function Navbar() {
                     Services</a></li>
                 <li><a href="#">About</a></li>
             </ul>
+            <div className="burger">
+                <hr />
+                <hr style={{borderBlockColor:"var(--primary-color)",width:"20px"}} />
+                <hr />
+            </div>
 
         </nav>
     )

@@ -1,0 +1,25 @@
+.section-one{
+    position: absolute;
+    top: 100px;
+    height: 80vh;
+    padding: 10px 50px;
+}
+.section-one p {
+    line-break: loose;
+    max-width: 500px ;
+}
+button{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 6px;
+    padding: 13px 17px;
+    font-weight: bold;
+    font-size: medium;
+}
+button:hover{
+    background-color: #ee8a18;
+    ;
+    cursor: pointer;
+    transition-duration: 400ms;
+}
