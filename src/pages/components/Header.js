@@ -12,9 +12,11 @@ fetch("http://localhost:5000/login",{
 
 function Header() {
     return (
-        <div>
-            <Navbar></Navbar>
-        </div>
+        
+            <Navbar>
+                
+            </Navbar>
+        
     )
 }
 

@@ -3,14 +3,17 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-   background-color: transparent;
-   background-color: var(--primary-color);
-    color: var(--secondary-color);
-    backdrop-filter:  10px; ;
+    background-color: transparent;
+    padding: 1em 60px ;
     
+}
+.title{
+    font-family: 'Mochiy Pop P One', sans-serif;
 }
 .header{
     display: flex;
+    align-items: center;
+    gap: 5px;
 }
 div ul{
     display: flex;
@@ -18,4 +21,8 @@ div ul{
     list-style: none;
     font-size: larger;
     font-weight: bolder;
+}
+ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
 }
