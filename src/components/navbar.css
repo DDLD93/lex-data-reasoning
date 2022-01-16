@@ -1,8 +1,4 @@
-@media only screen and (max-width: 600px) {
-    nav{
-        background-color:red ;
-    }
-}
+
 nav{
     display: flex;
     align-items: center;
@@ -10,9 +6,14 @@ nav{
     background-color: #ffffffeb;
     z-index: 100;
     width: -webkit-fill-available;
-    padding: 1em 60px ;
+    padding: 1em 20px ;
     position: fixed;
     backdrop-filter: blur(4px);
+}
+.nav-toggle{
+    transform: translate3d(-130px, 0, 0);
+    transition-duration: 300ms;
+
 }
 .title{
     font-family: 'Mochiy Pop P One', sans-serif;
@@ -33,11 +34,18 @@ ul li a{
     text-decoration: none;
     color: var(--secondary-color);
 }
+.contact a {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px 15px;
+
+}
 a,li:hover{
     transform: scale(0.95,0.95);
     transition-duration: 400ms;
 }
 .burger{
+    cursor: pointer;
     width: 25px;
     display: none;
     border: 2px solid #dbd8d8;
@@ -46,4 +54,41 @@ a,li:hover{
 .burger hr {
     border-color: black;
     
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+.mobile-view{
+    display: none; 
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    background-color: var(--primary-color);
+    z-index: 100;
+    height: 100vh;
+}
+.toggle{
+    display: flex;
+    width: 40%;
+    transition-duration: 1000ms;
+}
+.mobile-view ul{
+    flex-direction: column;
+    justify-content: center;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    gap: 12px;
+    padding-left: 15px;
+}
+
+
+@media(max-width: 770px) {
+   .burger{
+       display: block;
+   }
+  #list{
+       display: none;
+   }
+
 }

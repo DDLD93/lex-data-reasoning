@@ -1,25 +1,31 @@
-.section-one{
-    position: absolute;
+.banner-wrapper{
+    background-image: url("../assets/magnifying-glass.jpg.jpg");
+    background-size: cover;
+    background-blend-mode: saturation;
+    position: relative;
     top: 100px;
-    height: 80vh;
-    padding: 10px 50px;
+    height: 90vh;
+}
+.section-one{
+    color: #ffffff;
+    padding: 2rem 1.8rem;
+    background: -webkit-radial-gradient(bottom left,#000000,#000000eb,#0403007d);
+    position: absolute;
+    background-blend-mode: darken;
+    top: 0;
+    left: 0;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+.section-one h1 {
+    font-size: 3rem;
 }
 .section-one p {
-    line-break: loose;
-    max-width: 500px ;
+   font-size: 1.2em;
+   max-width: 70%;
+   text-overflow: clip;
+   text-align: start;
 }
-button{
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    border: none;
-    border-radius: 6px;
-    padding: 13px 17px;
-    font-weight: bold;
-    font-size: medium;
-}
-button:hover{
-    background-color: #ee8a18;
-    ;
-    cursor: pointer;
-    transition-duration: 400ms;
+.section-one button{
+      
 }
