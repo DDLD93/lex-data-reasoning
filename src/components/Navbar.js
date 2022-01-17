@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from "../assets/logo.png"
 import "./navbar.css"
 
 function Navbar() {
@@ -17,7 +18,7 @@ function Navbar() {
         <div>
         <nav>
             <header className="header">
-                <img src="" alt="logo" />
+                <img src={logo} width="50" height="50" alt="logo" />
                 <h3 className="title">Digital Reasoning</h3>
             </header>
             <ul id='list' className='small-navbar' >

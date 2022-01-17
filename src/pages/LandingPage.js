@@ -11,15 +11,22 @@ function LandingPage() {
             <h1>
               Digital <span>Reasoning</span>
             </h1>
-
-            <p>
-              Digital Reasoning is a multidisciplinary corporate
-              communication,public relations,perceptionmanagement,and research
-              and documentation firm. <br />
-              We are built with a global vision and tailored to specific
-              contemporary needs of our clients.
-            </p>
-            <button className="button">Contact Us</button>
+            <div style={{ width: "30rem" }}>
+              <p>
+                Digital Reasoning is a multidisciplinary corporate
+                communication,public relations,perceptionmanagement,and research
+                and documentation firm. We are built with a global vision and
+                tailored to specific contemporary needs of our clients.
+              </p>
+            </div>
+            <div className="button-group" >
+              <button id="button" className="button">
+                Contact Us
+              </button>
+              <button id="button-services" className="button">
+                Our Services
+              </button>
+            </div>
           </section>
         </div>
         <section className="section-two"></section>

@@ -26,6 +26,27 @@
    text-overflow: clip;
    text-align: start;
 }
+#button{
+    position: relative;
+    top: 18vh;
+}
+#button-service{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.button-group{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+
+}
 .section-one button{
       
+}
+.section-two{
+    height: 100vh;
+    background-image: url("../assets/logo.png");
+    background-size: contain;
+    background-blend-mode: saturation;
+
 }

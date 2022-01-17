@@ -6,7 +6,7 @@ nav{
     background-color: #ffffffeb;
     z-index: 100;
     width: -webkit-fill-available;
-    padding: 1em 20px ;
+    padding: 15px 40px ;
     position: fixed;
     backdrop-filter: blur(4px);
 }
@@ -25,6 +25,7 @@ nav{
 }
 div ul{
     display: flex;
+    align-items: center;
     gap: 0.7em;
     list-style: none;
     font-size: larger;
